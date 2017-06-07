@@ -1,0 +1,2 @@
+graft app/app.templates
+graft app/app.static

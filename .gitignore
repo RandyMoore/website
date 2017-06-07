@@ -1,0 +1,9 @@
+bin
+include
+lib
+pip-selfcheck.json
+lib64
+.idea
+*.pyc
+*.iml
+/app/app.egg-info/
