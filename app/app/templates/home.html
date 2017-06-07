@@ -1,3 +1,15 @@
-<!doctype html>
-<title>Randy Moore</title>
-<h1>Randy Moore</h1>
+<!DOCTYPE html>
+<html>
+    <head> </head>
+    <body>
+        {% if current_user.is_authenticated %}
+            <a href="/logout/"> Logout </a>
+        {% else %}
+            <a href="/login/"> Login </a>
+        {% endif %}
+        &nbsp&nbsp<a href="/blog/"> Blog </a>
+        &nbsp&nbsp<a href="/blog/sitemap.xml">Sitemap</a>
+        &nbsp&nbsp<a href="/blog/feeds/all.atom.xml">ATOM</a>
+        &nbsp&nbsp<a href="/fileupload/">FileUpload</a>
+    </body>
+</html>
