@@ -5,7 +5,7 @@ CMD ["/sbin/my_init"]
 RUN apt-get update && apt-get upgrade -y && apt-get install -y nginx python-pip
 
 ADD config/* /usr/local/etc/
-ADD app/* /usr/local/src
+ADD app /usr/local/src/
 
 RUN /usr/local/etc/setup.sh
 

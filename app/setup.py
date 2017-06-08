@@ -8,6 +8,7 @@ setup(
         'flask',
         'sqlalchemy',
         'flask_login',
-        'flask_blogging'
+        'flask_blogging',
+        'passlib'
     ],
 )

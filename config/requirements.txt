@@ -1,2 +1,6 @@
 flask
 uwsgi
+sqlalchemy
+flask_login
+flask_blogging
+passlib

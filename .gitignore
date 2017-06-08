@@ -7,3 +7,5 @@ lib64
 *.pyc
 *.iml
 /app/app.egg-info/
+/app/app/prod_config.py
+/app/blog.db
