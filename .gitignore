@@ -9,3 +9,5 @@ lib64
 /app/app.egg-info/
 /app/app/prod_config.py
 /app/blog.db
+app/app/blog.db
+heroku-cli-v6.10.1-f6df9cf-linux-x64/
