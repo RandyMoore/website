@@ -19,7 +19,7 @@ body, html {
   height: 100%;
 }
 
-body {
+.image-background {
   text-align: center;
   text-shadow: 0 1px 3px rgba(0,0,0,.5);
   background: url(AlmadenQuicksilver.png) no-repeat center center fixed;
@@ -56,6 +56,10 @@ body {
 
 .cover-heading {
   font-weight: bold;
+}
+
+.blog-background {
+    background: black;
 }
 
 .post-link {

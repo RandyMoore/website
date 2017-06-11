@@ -6,7 +6,7 @@ HASH = "$6$rounds=656000$ux9h9j92H1T3ZiS9$aWPRho0WpU9eyVCmuVt36yhBXBAVapiiWEmTqA
 
 # Flask-blogging configs
 BLOGGING_URL_PREFIX = "/blog"
-BLOGGING_SITENAME = "Blog of Randy Moore"
+BLOGGING_SITENAME = "Randy Moore's Blog"
 FILEUPLOAD_IMG_FOLDER = "fileupload"
 FILEUPLOAD_PREFIX = "/fileupload"
 FILEUPLOAD_ALLOWED_EXTENSIONS = ["png", "jpg", "jpeg", "gif"]
